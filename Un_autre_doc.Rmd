@@ -1,0 +1,25 @@
+---
+title: "Nouveau doc"
+author: "Nelson"
+date: "2023-01-01"
+output: html_document
+---
+
+---
+title: "Intro_Rmardown"
+author: "Nelson"
+date: "2023-01-01"
+output: html_document
+---
+
+**Partie 1**
+
+*Pour commencer*
+
+Par soucis de reproduction on utilise Rmarkdown pour faire notre travail
+
+```{r,echo=TRUE}
+data("cars")
+attach("cars")
+head("cars")
+```
